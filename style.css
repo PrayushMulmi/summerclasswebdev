@@ -15,7 +15,7 @@ main{
     align-items: center;
     margin: 80px 80px;
     height: 300vh;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 header{
@@ -159,8 +159,5 @@ menu div{
     grid-template-columns: repeat(4, 200px);
     grid-template-rows: repeat(1, 300px);
     justify-content: space-evenly;
-}
-
-.innerContent{
-    background-color: black;
+    vertical-align: middle;
 }
